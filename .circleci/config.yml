@@ -49,6 +49,6 @@ workflows:
       - deploy:
           requires:
             - test
-            filters:
-          branches:
-            only: dushyant
+          filters:
+              branches:
+                only: dushyant
